@@ -1,6 +1,6 @@
 # A/B Test Design & Analysis: Mobile Checkout Optimization
 
-End-to-end statistical experiment design for an e-commerce checkout optimization — from power analysis and hypothesis definition through Z-tests, confidence intervals, and guardrail metric validation. This is the natural follow-on to the [Product Analytics Case Study](https://github.com/yshirokov05/product-analytics-case-study), which identified a 15% drop-off at mobile checkout.
+End-to-end statistical experiment design for an e-commerce checkout optimization — from power analysis and hypothesis definition through Z-tests, confidence intervals, and guardrail metric validation. This is a standalone companion to the [Product Analytics Case Study](https://github.com/yshirokov05/product-analytics-case-study) — both explore mobile checkout friction, but this project is an independent experiment-design exercise rather than a direct continuation of that funnel analysis.
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python)](https://python.org/)
 [![SciPy](https://img.shields.io/badge/SciPy-Statistics-8CAAE6?style=flat-square&logo=scipy)](https://scipy.org/)
@@ -11,7 +11,7 @@ End-to-end statistical experiment design for an e-commerce checkout optimization
 
 ## Experiment Design
 
-**The finding:** The product analytics funnel analysis found a 15% absolute drop-off between Add-to-Cart and Purchase for mobile users.
+**The premise:** Checkout is a common friction point in mobile e-commerce conversion funnels.
 
 **The hypothesis:** A "One-Click Fast Checkout" button on product pages — bypassing the multi-step cart flow — will increase the mobile Checkout-to-Purchase conversion rate by at least 5 percentage points (absolute).
 
@@ -112,8 +112,8 @@ jupyter notebook notebooks/ab_test_analysis.ipynb
 
 ---
 
-**Part of a two-project series:**
-- [Product Analytics Case Study](https://github.com/yshirokov05/product-analytics-case-study) — funnel analysis that motivated this experiment
+**Related, independent projects:**
+- [Product Analytics Case Study](https://github.com/yshirokov05/product-analytics-case-study) — companion funnel analysis of the mobile checkout journey
 - **A/B Test Analysis** ← you are here
 
 **Author:** Yury Shirokov | UC Berkeley Economics + Data Science
